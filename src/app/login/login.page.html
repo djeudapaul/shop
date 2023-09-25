@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+ 
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+   
+  <div class="head">
+    <ion-img class="logo"
+    src="assets\images\logo.png"
+    alt="i-shop logo">
+    </ion-img>
+    <ion-label class="titre">Se connecter</ion-label>
+    <br><br>
+  </div>
+  </ion-header>
+    <ion-list class="form">
+
+      
+      <ion-input placeholder="Nom" type="text"></ion-input>
+      <br>
+      <ion-input id="messa" placeholder="Mot-de-passe" type="Password"></ion-input>
+    </ion-list>
+
+    <div class="l">
+      <div class="k"></div>
+      <div  class="l">Bienvenue à ShopBag, l'application qui vous facilite la vie !</div>
+    </div>
+
+    
+   
+    
+    <ion-button id="button" routerLink="/tabs">Se connecter</ion-button>
+    <div>Pas de compte ?<span id="org" routerLink="/inscription">Créer un compte</span></div>
+
+
+</ion-content>

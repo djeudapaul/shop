@@ -1,0 +1,99 @@
+.head{
+
+    .logo{
+      width: 200px; 
+      height: 190px;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 35px;
+    }
+  
+    .titre{
+      font-size: 40px;
+      font-weight: bold;
+      color: #000000;
+    }
+    text-align: center;
+  }
+  ion-content{
+    text-align: center;
+  }
+  .form{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  
+    ion-input{
+      border-radius: 10px;
+      background: #D9D9D9;
+      margin-bottom: 10px;
+      margin-left: 35px;
+      text-align:start;
+      width: 85%;
+      align-items: center;
+      padding: 10px;
+      font-family: Poppins,sans-serif;
+      
+    }
+  }
+  
+  p a{
+    text-decoration: none;
+    color: black; 
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .l{
+    width: 100%;
+    color: black;
+    margin-bottom: 20px;
+  }
+  .k{
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+    width: 100%;
+    color: black;
+  }
+  
+  #mess{
+    color: black;
+    font-family: poppins, sans-serif;
+    font-size: 100%;
+    
+  }
+  
+  .t{
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  
+  .log{
+    text-decoration: none;
+    color: black; 
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+   
+  }
+  
+  .log a{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1E9C09;
+    text-decoration: none;
+   }
+   #org{
+    color: orangered;
+  }
+  #messa{
+    margin-bottom: 110px;
+  }
+  
+  ion-button{
+    --background: #D5651F; 
+  }
